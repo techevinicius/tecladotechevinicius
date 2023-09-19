@@ -42,3 +42,5 @@ function tocarSomtam (){
     document.querySelector('#som_tecla_tam').play();
     document.querySelector('.tecla_tam').onclick = tocarSomtam;
 }
+
+document.querySelectorAll('.tecla'); //a funçao determina a generalização das classes que contém o nome escrito tecla
