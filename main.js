@@ -44,3 +44,5 @@ function tocarSomtam (){
 }
 
 document.querySelectorAll('.tecla'); //a funçao determina a generalização das classes que contém o nome escrito tecla
+
+const ListaDeTeclas = document.querySelectorAll('.tecla');
