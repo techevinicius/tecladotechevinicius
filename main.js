@@ -15,7 +15,7 @@ function tocarSomtim (){
 
 function tocarSompuff (){
     document.querySelector('#som_tecla_puff').play();
-    document.querySelector('.tecla_puff').onclick = tocarSopuff;
+    document.querySelector('.tecla_puff').onclick = tocarSompuff;
 }
 
 function tocarSomsplash (){
@@ -46,3 +46,13 @@ function tocarSomtam (){
 document.querySelectorAll('.tecla'); //a funçao determina a generalização das classes que contém o nome escrito tecla
 
 const ListaDeTeclas = document.querySelectorAll('.tecla');
+
+ListaDeTeclas [0].onclick = tocarSomPom;
+ListaDeTeclas [1].onclick = tocarSomclap;
+ListaDeTeclas [2].onclick = tocarSomtim;
+ListaDeTeclas [3].onclick = tocarSompuff;
+ListaDeTeclas [4].onclick = tocarSomsplash;
+ListaDeTeclas [5].onclick = tocarSomtaim;
+ListaDeTeclas [6].onclick = tocarSomPsh;
+ListaDeTeclas [7].onclick = tocarSomtic;
+ListaDeTeclas [8].onclick = tocarSotam;
