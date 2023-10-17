@@ -70,10 +70,10 @@ while (contador <ListaDeTeclas.length) {
 //contador = contador + 1;
 //console.log (contador);
 
-const tecla = ListaDeTeclas [contador] 
+const tecla = ListaDeTeclas [contador];
 const instrumento = tecla.classList [1];
 
-const idAudio = '#som_${instrumento}';
+const idAudio = `#som_${instrumento}`;
 
 tecla.onclick = function () { 
     tocarSom (idAudio);
