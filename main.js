@@ -61,7 +61,7 @@ ListaDeTeclas [6].onclick = tocarSomPsh;
 ListaDeTeclas [7].onclick = tocarSomtic;
 ListaDeTeclas [8].onclick = tocarSotam;
 
-=let contador = 0;
+let contador = 0;
 
 //ADICIONANDO A CONDICIONAL WHILE 
 while (contador <ListaDeTeclas.length) {
