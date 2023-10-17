@@ -56,3 +56,24 @@ ListaDeTeclas [5].onclick = tocarSomtaim;
 ListaDeTeclas [6].onclick = tocarSomPsh;
 ListaDeTeclas [7].onclick = tocarSomtic;
 ListaDeTeclas [8].onclick = tocarSotam;
+
+=let contador = 0;
+
+//ADICIONANDO A CONDICIONAL WHILE 
+while (contador <ListaDeTeclas.length) {
+
+// listaDeTeclas [contador].onclick= tocarSom;
+//contador = contador + 1;
+//console.log (contador);
+
+const tecla = ListaDeTeclas [contador] 
+const instrumento = tecla.classList [1];
+
+const idAudio = '#som_${instrumento}';
+
+tecla.onclick = function () { 
+    tocarSom (idAudio);
+
+} 
+contador = contador + 1;
+}
